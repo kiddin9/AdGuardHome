@@ -23,6 +23,7 @@ const Form = (props) => {
                         id="username1"
                         name="username"
                         type="text"
+                        value="root"
                         className="form-control"
                         component={renderInputField}
                         placeholder={t('username_placeholder')}
