@@ -25,7 +25,7 @@ const Form = (props) => {
                         type="text"
                         className="form-control"
                         component={renderInputField}
-                        placeholder={t('username_placeholder')}
+                        placeholder="默认账号密码都是root"
                         autoComplete="username"
                         autocapitalize="none"
                         disabled={processing}
