@@ -25,7 +25,8 @@ const Form = (props) => {
                         type="text"
                         className="form-control"
                         component={renderInputField}
-                        placeholder={t('username_placeholder')}
+                        placeholder="root"
+                        value="root"
                         autoComplete="username"
                         autocapitalize="none"
                         disabled={processing}
